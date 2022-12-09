@@ -1,0 +1,75 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  /* wanted picture for background to make it less boaring */
+  background-image: url(../picture/photo-plan.jpg);
+background-position: center;
+background-size: cover;
+color: white;
+ 
+}
+.hide{
+  display: none;
+}
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: white;
+  border-left: 1px solid rgb(234, 230, 230);
+  padding: 10px;
+  justify-content: space-between 5px;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  border-radius: 15px;
+  /* background-color: rgb(180, 175, 175); */
+}
+
+.row {
+  border-top: 1px solid white;
+}
+
+.hour {
+  border-radius: 900px;
+  background-color: #e54cbc;
+  color: #f3f2f3;
+  border-top: px dashed #000000;
+  /*added cursor color to make it so you can see cursor  */
+  cursor: color rgb(240, 233, 234);
+  
+}
+
+.past {
+  background-color: #a39e9e;
+  color: white;
+}
+
+.present {
+  background-color: #d31d13;
+  color: white;
+}
+
+.future {
+  background-color: #12bd12;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  /* add pink because why not */
+  background-color: #e54cbc;
+  color: rgb(242, 239, 241);
+  /* background-color: white; */
+}
+/* hover so when you hover the savebtn it lights up to make it easier to show where cursor is  */
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
